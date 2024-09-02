@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-color: rgb(58, 57, 56);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.course-presentation {
+    width: 100%;
+    margin-top: 30px; /* Ajuste para evitar desbordes */
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(47, 95, 79);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner p {
+    margin: 0 0 20px 0; /* Ajuste del margen inferior para separar del contenido */
+    font-size: 18px;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Consistencia en el espaciado */
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120px; /* Tamaño fijo para uniformidad */
+}
+
+.course img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.course-name {
+    font-size: 16px;
+    color: white;
+}
+
+/* Específico para cada ícono con colores configurados */
+.html-icon {
+    background-color: #E34F26;
+}
+
+.css-icon {
+    background-color: #1572B6;
+}
+
+.js-icon {
+    background-color: #F7DF1E;
+}
+
+.node-icon {
+    background-color: #68A063; /* Ajustado para un color más visible */
+}
+
+.nest-icon {
+    background-color: #E0234E;
+}
+
+.go-icon {
+    background-color: #00ADD8;
+}
+
+/* Asegurar coherencia en todos los márgenes */
+.course, .courses, .banner, .banner-image {
+    box-sizing: border-box; /* Para evitar desbordes inesperados */
+    margin: 0 auto; /* Centrar elementos */
+}
+
+.navbar {
+    background-color: #8cd390; /* Color de fondo más profesional */
+    color: white;
+    display: flex;
+    justify-content: flex-end; /* Alineación de los elementos al final */
+    align-items: center;
+    height: 60px; /* Un poco más alto para un aspecto más balanceado */
+    padding: 0 20px; /* Espaciado horizontal */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar la barra */
+}
+
+/* Enlaces de navegación */
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Tamaño de fuente adecuado */
+    margin-left: 20px; /* Espaciado entre enlaces */
+    transition: color 0.3s, background-color 0.3s; /* Transición suave para efectos */
+    padding: 10px 15px; /* Espaciado interno para enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.navbar-link:hover {
+    background-color: #575757; /* Color de fondo al pasar el mouse */
+    color: #f0f0f0; /* Color del texto al pasar el mouse */
+}
+
+/* Estilos opcionales si deseas mantener el nombre de la clase */
+.p-login {
+    margin: 0;
+}

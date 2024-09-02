@@ -13,3 +13,13 @@
     font-family: 'Inconsolata';
     src: url('./fonts/Inconsolata-Regular.ttf')format('truetype');
 }
+
+@font-face {
+    font-family: ibmplexsans;
+    src: url('./IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'ubuntu mono-regular';
+    src: url('./Ubuntu_Mono/UbuntuMono-Regular.ttf')format('truetype');
+}

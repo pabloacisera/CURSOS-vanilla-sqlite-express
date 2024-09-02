@@ -1,94 +1,99 @@
+/* Estilos generales del cuerpo */
 body {
-    background-color: black;
+    background-color: #000; /* Color de fondo negro */
     margin: 0;
-    color: white;
+    color: #fff; /* Color del texto blanco */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Ubuntu Mono', monospace; /* Font-family mejorada */
 }
 
+/* Contenedor principal del formulario */
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 600px; /* Limita el ancho máximo del contenedor principal */
+    max-width: 600px; /* Limita el ancho máximo del contenedor */
     padding: 20px;
 }
 
+/* Contenedor del formulario */
 .form-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #333;
+    background-color: #333; /* Fondo oscuro para el contenedor */
     border-radius: 8px;
     padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
 }
 
+/* Estilos del formulario */
 .form {
     display: flex;
     flex-direction: column;
     gap: 15px; /* Espacio entre los elementos del formulario */
     width: 100%;
-    font-family: SuseBold;
-    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Fuentes */
 }
 
-label {
-    margin-bottom: 5px;
-}
-
-/* Aplica la fuente Inconsolata a los labels y párrafos en los formularios */
+/* Etiquetas y párrafos */
 label, p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Utiliza la fuente 'Inconsolata' y como fallback 'monospace' */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 0 5px; /* Espaciado inferior para etiquetas */
 }
 
-/* Si ya tienes reglas específicas para p y labels en tu CSS, asegúrate de que no estén sobrescribiendo esto */
-
-
+/* Campos de entrada */
 input {
     padding: 12px;
     border: 1px solid #666;
     border-radius: 4px;
-    background-color: #444; /* Fondo de los campos de entrada para mejorar la legibilidad */
-    color: white; /* Color del texto en los campos de entrada */
+    background-color: #444; /* Fondo oscuro para campos de entrada */
+    color: #fff; /* Color del texto en los campos de entrada */
 }
 
+/* Botón */
 button {
     padding: 15px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #007bff;
-    color: white;
+    background-color: #007bff; /* Color del botón */
+    color: #fff;
     cursor: pointer;
     letter-spacing: 1px;
-    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+    transition: background-color 0.3s ease; /* Transición suave */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Color al pasar el mouse */
 }
 
+/* Mensajes de error */
 .error {
     color: red;
 }
 
+/* Ocultar elementos */
 .oculto {
     display: none;
 }
 
+/* Estilos para el párrafo */
 p {
     margin: 0;
-    text-align: center; /* Centra el texto en el párrafo */
+    text-align: center; /* Centra el texto */
 }
 
-.register {
-    color: yellowgreen;
+/* Enlaces de registro */
+.link-register {
+    color: rgb(103, 145, 19); /* Color verde oliva */
     text-decoration: none;
 }
 
-.register:hover {
-    text-decoration: underline;
+.link-register:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
 }

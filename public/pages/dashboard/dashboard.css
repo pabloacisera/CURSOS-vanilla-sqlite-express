@@ -1,0 +1,84 @@
+body {
+  background-color: slategrey;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Opcional: para centrar verticalmente los elementos */
+}
+
+.header h5{
+    padding:15px;
+    background-color: olivedrab;
+    cursor: pointer;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+  font-family: SuseBold;
+  font-size: 50px;
+}
+
+nav ol {
+  list-style-type: decimal; /* Cambiar a números */
+  margin: 0;
+  padding: 0;
+}
+
+nav ol li {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: CrimsonT;
+  font-size: 25px;
+}
+
+nav ol li .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #afdee0;
+  min-width: 300px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  padding-left: 20px; /* Indentar las sublistas */
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+nav ol li:hover .dropdown {
+  display: block;
+}
+
+nav ol li .dropdown li {
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  color: black;
+  font-size: 15px;
+}
+
+nav ol li .dropdown li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+nav ol li .dropdown li a:hover {
+  color: tomato;
+  font-size: 15px;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}

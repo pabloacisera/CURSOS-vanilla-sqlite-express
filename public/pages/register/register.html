@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/pages/register/register.css" />
+    <link rel="stylesheet" href="/my_fonts/font.css">
+    <title>Registrar</title>
+  </head>
+  <body>
+    <main>
+      <div class="form-container">
+        <form id="register-form" class="form">
+          <p class="error oculto">Error al registrarse. Inténtelo nuevamente...</p>
+          <h3>Registrarse</h3>
+          
+          <label for="name">Nombre</label>
+          <input type="text" id="name" placeholder="Ingrese su nombre" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Ingrese su email" />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Ingrese su password" />
+
+          <button type="submit">Registrar</button>
+          
+          <p>Aún no tienes una cuenta? <a class="login" href="http://localhost:6767/api/login_page">Ingresa</a></p>
+        </form>
+      </div>
+    </main>
+    <script src="/pages/register/register.js"></script>
+  </body>
+</html>
+

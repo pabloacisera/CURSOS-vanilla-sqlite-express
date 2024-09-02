@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'SuseBold';
+    src: url('./fonts/SUSE/static/SUSE-Bold.ttf') format('truetype');
+}
+
+
+@font-face{
+    font-family: 'CrimsonT';
+    src: url('./fonts/Crimson_Text/CrimsonText-Bold.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('./fonts/Inconsolata-Regular.ttf')format('truetype');
+}
